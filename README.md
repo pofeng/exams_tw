@@ -15,6 +15,8 @@ https://huggingface.co/datasets/cais/mmlu
 
 https://bcoct.naer.edu.tw/TBCL/
 
+2023 華語文語料庫與能力基準應用競賽得獎作品 https://coct.naer.edu.tw/page.jsp?ID=56
+
 語料庫覆蓋率統計系統 https://coct.naer.edu.tw/coverage.jsp
 
 https://github.com/konsheng/Sensitive-lexicon
