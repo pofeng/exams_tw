@@ -7,6 +7,8 @@
 
 url.csv 網址對照表 (連結網址開放資料): https://wwwc.moex.gov.tw/main/Exam/wHandExamQandA_CSV.ashx
 
+---
+
 其他暫存:
 
 https://github.com/EleutherAI/lm-evaluation-harness
@@ -36,8 +38,6 @@ https://huggingface.co/datasets/MediaTek-Research/TCEval-v2
 
 數發部AI產品與系統評測中心 的題目範例
 https://www.aiec.org.tw/Home/DownloadZone
-
-667 字的極短篇《烤肉》
 
 呼籲要開發 benchamrk 的老師們:
 
