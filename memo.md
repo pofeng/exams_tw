@@ -13,6 +13,10 @@ TMMLU+ 評  perplexity R1 1776
 
 其他暫存:
 
+預訓練資料集: fineweb-zhtw , 107 GB , 預估 Token 數： 72B
+https://huggingface.co/datasets/voidful/fineweb-zhtw
+
+
 https://github.com/EleutherAI/lm-evaluation-harness
 
 https://huggingface.co/datasets/cais/mmlu
