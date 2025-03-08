@@ -9,6 +9,8 @@ url.csv 網址對照表 (連結網址開放資料): https://wwwc.moex.gov.tw/mai
 
 抓完有 89484 個 pdf , 未壓縮 13.1 G , 89484 個 pdf 
 
+目前有看起來選擇題有兩種格式, 先選簡單的, 範例為 Q1.pdf 與 A1.pdf , 對應到 Q1.py A1.pf , 有呼叫 pdftotext 需要安裝 poppler-utils
+
 <pre>
 著作權法第九條
 1. 下列各款不得為著作權之標的︰
