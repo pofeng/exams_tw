@@ -7,9 +7,11 @@
 
 url.csv 網址對照表 (連結網址開放資料): https://wwwc.moex.gov.tw/main/Exam/wHandExamQandA_CSV.ashx
 
-抓完有 89484 個 pdf , 未壓縮 13.1 G , 89484 個 pdf 
+dl.py + url.csv 可以下載所有的考卷, 抓完有 89484 個 pdf , 未壓縮 13.1 G , 89484 個 pdf 
 
 目前有看起來選擇題有兩種格式, 先選簡單的, 範例為 Q1.pdf 與 A1.pdf , 對應到 Q1.py A1.py , 有呼叫 pdftotext 需要安裝 poppler-utils
+
+希望下一步能組成 MMLU-example.json 的格式, 然後用 lm-evaluation-harness 去評 perplexity R1 1776
 
 <pre>
 著作權法第九條
