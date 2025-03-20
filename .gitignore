@@ -1,0 +1,7 @@
+question_*
+question.tgz
+.venv
+.vscode
+compass-connections.json
+.env
+__pycache__/

@@ -1,0 +1,109 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "考試的唯一識別碼(FreeSeed編碼)"
+      },
+      "考試年度": {
+        "type": "string",
+        "description": "考試舉辦的年份"
+      },
+      "考試代碼": {
+        "type": "string",
+        "description": "考試的代碼"
+      },
+      "考試名稱": {
+        "type": "string",
+        "description": "考試的名稱"
+      },
+      "等級代碼": {
+        "type": "string",
+        "description": "等級的代碼"
+      },
+      "等級分類": {
+        "type": "string",
+        "description": "等級的分類"
+      },
+      "考試及等別": {
+        "type": "string",
+        "description": "考試及等級別"
+      },
+      "類科代碼": {
+        "type": "string",
+        "description": "類科的代碼"
+      },
+      "類科組別": {
+        "type": "string",
+        "description": "類科的組別"
+      },
+      "節次": {
+        "type": "string",
+        "description": "考試的節次"
+      },
+      "科目全名": {
+        "type": "string",
+        "description": "科目的全名"
+      },
+      "試題型態": {
+        "type": "string",
+        "description": "試題的型態"
+      },
+      "試題網址": {
+        "type": "string",
+        "format": "uri",
+        "description": "試題的網址"
+      },
+      "試題檔案": {
+        "type": "string",
+        "description": "試題的檔案"
+      },
+      "測驗式試題答案網址": {
+        "type": "string",
+        "format": "uri",
+        "description": "測驗式試題答案的網址"
+      },
+      "測驗式試題答案檔案": {
+        "type": "string",
+        "description": "測驗式試題答案的檔案"
+      },
+      "備註": {
+        "type": "string",
+        "description": "備註"
+      },
+      "題庫": {
+        "type": "array",
+        "description": "題庫列表，每個題庫包含多個題目與答案的組合",
+        "items": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "description": "題目內容",
+              "images": {
+                "type": "array",
+                "description": "題目中的圖片連結",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "choices": {
+              "type": "array",
+              "description": "選項列表",
+              "items": {
+                "type": "string"
+              }
+            },
+            "answer": {
+              "type": "integer",
+              "description": "正確答案在選項列表中的索引（從 0 開始）"
+            }
+          },
+          "required": ["question", "choices", "answer"]
+        }
+      }
+    },
+    "required": ["考試年度", "考試代碼", "考試名稱", "等級代碼", "等級分類", "考試及等別", "類科代碼", "類科組別", "節次", "科目全名", "試題型態", "試題網址", "測驗式試題答案網址", "題庫"]
+  }
