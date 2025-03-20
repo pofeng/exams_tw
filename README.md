@@ -13,6 +13,36 @@ dl.py + url.csv 可以下載所有的考卷, 抓完有 89484 個 pdf , 未壓縮
 
 希望下一步能組成 MMLU-example.json 的格式, 然後用 lm-evaluation-harness 去評 perplexity R1 1776
 
+## Ken的說明
+1. url.csv中有60316筆資料，但是我將其轉錄成json後，fse_all.json只有60251筆記錄
+
+
+### 檔案/資料夾說明
+1. question_bank - 裡頭是所有的題庫、答案pdf檔
+2. question_json_all - 每一份考卷與對應的答案都被我整理了一張一張的json
+3. fest_all.json - 這個檔案是所有json的集合
+4. question_json - 這是處理中的folder。先在csv或mongodb上決定好要處理的檔案們，將這些實體json由*question_json_all* copy至此。再這裡測試、實做。
+5. question_images - 有圖片的考卷，該圖片檔會暫時被放置於此。與前項*question_json*的處理方式一樣，完成後應將question_images內所有圖片檔copy至*question_images_done*
+6. question_json_done - 處理完成的json就放置於此
+7. question_images_done - 處理完成的images
+8. exam_schema.json - 題庫json的schema
+要注意的是，question_json_all的內容應該與question_json_done的內容互斥，一個json file只能存在於一個folder中。尚未處理的置於question_json_all，已處理完成的置於question_json_done。
+
+
+2.  
+圖片處理有用到wand
+```python
+pip install wand
+# macOS用Homebrew安裝imagemagick
+brew install imagemagick
+```
+
+### .py的處理範圍
+process_exam_type01.py
+1. fse00000001.json ~ fse00000065.json
+2. fse00000066.json ~ fse00000121.json
+
+
 <pre>
 著作權法第九條
 1. 下列各款不得為著作權之標的︰
