@@ -2,6 +2,8 @@ question_*
 question.tgz
 .venv
 .vscode
+.ken/
 compass-connections.json
 .env
 __pycache__/
+.secret

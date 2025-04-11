@@ -22,9 +22,6 @@ https://aistudio.google.com/app/prompts/1MT6U__71rQGIb7h3QA2UNvxtQ1KAnq9B
 
 ----
 
-## Ken的說明
-1. url.csv中有60316筆資料，但是我將其轉錄成json後，fse_all.json只有60251筆記錄
-
 
 ### 檔案/資料夾說明
 1. question_bank - 裡頭是所有的題庫、答案pdf檔

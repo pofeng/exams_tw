@@ -1,0 +1,78 @@
+2025-04-11 11:28:55,240 - __main__ - INFO - 181 - INFO - 開始執行資料庫更新與檔案管理主程序
+2025-04-11 11:28:55,241 - __main__ - INFO - 185 - INFO - 執行步驟 1: 移動已完成處理的檔案
+2025-04-11 11:28:55,241 - __main__ - INFO - 58 - INFO - 開始執行檔案移動作業
+2025-04-11 11:28:55,241 - __main__ - INFO - 69 - INFO - 找到 30 個 JSON 檔案需要移動
+2025-04-11 11:28:55,242 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00012094.json
+2025-04-11 11:28:55,242 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00009965.json
+2025-04-11 11:28:55,242 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00002329.json
+2025-04-11 11:28:55,243 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00012098.json
+2025-04-11 11:28:55,243 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00009969.json
+2025-04-11 11:28:55,243 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00002333.json
+2025-04-11 11:28:55,243 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00006777.json
+2025-04-11 11:28:55,243 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00004566.json
+2025-04-11 11:28:55,243 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00006776.json
+2025-04-11 11:28:55,244 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00009968.json
+2025-04-11 11:28:55,244 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00002332.json
+2025-04-11 11:28:55,244 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00002328.json
+2025-04-11 11:28:55,244 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00009964.json
+2025-04-11 11:28:55,244 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00012095.json
+2025-04-11 11:28:55,244 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00004561.json
+2025-04-11 11:28:55,245 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00012093.json
+2025-04-11 11:28:55,245 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00004563.json
+2025-04-11 11:28:55,245 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00004562.json
+2025-04-11 11:28:55,245 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00006780.json
+2025-04-11 11:28:55,245 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00006779.json
+2025-04-11 11:28:55,245 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00009967.json
+2025-04-11 11:28:55,245 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00012096.json
+2025-04-11 11:28:55,246 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00004565.json
+2025-04-11 11:28:55,246 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00006775.json
+2025-04-11 11:28:55,246 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00002331.json
+2025-04-11 11:28:55,246 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00002330.json
+2025-04-11 11:28:55,246 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00004564.json
+2025-04-11 11:28:55,246 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00012097.json
+2025-04-11 11:28:55,247 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00009966.json
+2025-04-11 11:28:55,247 - __main__ - INFO - 82 - INFO - 已成功移動檔案: fse00006778.json
+2025-04-11 11:28:55,247 - __main__ - INFO - 87 - INFO - 檔案移動作業完成
+2025-04-11 11:28:55,247 - __main__ - INFO - 191 - INFO - 執行步驟 2: 清理重複檔案
+2025-04-11 11:28:55,247 - __main__ - INFO - 103 - INFO - 開始執行重複檔案清理作業
+2025-04-11 11:28:55,247 - __main__ - INFO - 107 - INFO - 正在檢查已處理目錄: question_json_done
+2025-04-11 11:28:55,247 - __main__ - INFO - 112 - INFO - 找到 342 個已處理的 JSON 檔案
+2025-04-11 11:28:55,248 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00012094.json
+2025-04-11 11:28:55,249 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00009965.json
+2025-04-11 11:28:55,250 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00002329.json
+2025-04-11 11:28:55,250 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00012098.json
+2025-04-11 11:28:55,251 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00009969.json
+2025-04-11 11:28:55,252 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00002333.json
+2025-04-11 11:28:55,252 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00006777.json
+2025-04-11 11:28:55,253 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00004566.json
+2025-04-11 11:28:55,254 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00006776.json
+2025-04-11 11:28:55,255 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00009968.json
+2025-04-11 11:28:55,255 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00002332.json
+2025-04-11 11:28:55,256 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00002328.json
+2025-04-11 11:28:55,257 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00009964.json
+2025-04-11 11:28:55,258 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00012095.json
+2025-04-11 11:28:55,259 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00004561.json
+2025-04-11 11:28:55,260 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00012093.json
+2025-04-11 11:28:55,262 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00004563.json
+2025-04-11 11:28:55,263 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00004562.json
+2025-04-11 11:28:55,264 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00006780.json
+2025-04-11 11:28:55,264 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00006779.json
+2025-04-11 11:28:55,265 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00009967.json
+2025-04-11 11:28:55,266 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00012096.json
+2025-04-11 11:28:55,267 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00004565.json
+2025-04-11 11:28:55,268 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00006775.json
+2025-04-11 11:28:55,269 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00002331.json
+2025-04-11 11:28:55,270 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00002330.json
+2025-04-11 11:28:55,270 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00004564.json
+2025-04-11 11:28:55,271 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00012097.json
+2025-04-11 11:28:55,271 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00009966.json
+2025-04-11 11:28:55,272 - __main__ - INFO - 126 - INFO - 已移除重複檔案: question_json_all/fse00006778.json
+2025-04-11 11:28:55,272 - __main__ - INFO - 131 - INFO - 重複檔案清理作業完成，共移除 30 個重複檔案
+2025-04-11 11:28:55,272 - __main__ - INFO - 197 - INFO - 執行步驟 3: 更新 MongoDB 資料庫狀態
+2025-04-11 11:28:55,272 - __main__ - INFO - 147 - INFO - 開始執行 MongoDB 資料庫更新作業
+2025-04-11 11:28:55,273 - __main__ - INFO - 151 - INFO - 正在讀取已處理目錄: question_json_done
+2025-04-11 11:28:55,273 - __main__ - INFO - 155 - INFO - 找到 342 個已處理的 JSON 檔案
+2025-04-11 11:28:55,274 - __main__ - INFO - 159 - INFO - 準備更新 342 筆資料庫記錄
+2025-04-11 11:29:25,314 - __main__ - ERROR - 174 - ERROR - 更新 MongoDB 時發生錯誤: SSL handshake failed: ac-x0npecx-shard-00-02.lvdufzc.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-x0npecx-shard-00-01.lvdufzc.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-x0npecx-shard-00-00.lvdufzc.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67f88c77820e4bb2f1035bd0, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-x0npecx-shard-00-00.lvdufzc.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-x0npecx-shard-00-00.lvdufzc.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-x0npecx-shard-00-01.lvdufzc.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-x0npecx-shard-00-01.lvdufzc.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-x0npecx-shard-00-02.lvdufzc.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-x0npecx-shard-00-02.lvdufzc.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-11 11:29:25,316 - __main__ - INFO - 176 - INFO - MongoDB 資料庫更新作業結束
+2025-04-11 11:29:25,316 - __main__ - INFO - 201 - INFO - 資料庫更新與檔案管理主程序執行完畢
