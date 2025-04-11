@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "question": "手腕屈曲無力並伴隨著手腕內收動作(adduction)的產生為下列何者受傷的徵兆之一?",
+    "options": {
+      "A": "正中神經 (median nerve)",
+      "B": "肌皮神經 (musculocutaneous nerve)",
+      "C": "橈神經 (radial nerve)",
+      "D": "尺神經 (ulnar nerve)"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 2,
+    "question": "腮腺切除時為了保留顏面神經,須將腮腺之深、淺葉分開,常和腮腺分泌管(parotid duct)併行的顏面神經分支是:",
+    "options": {
+      "A": "頸支 (Cervical branch)",
+      "B": "下頜緣支 (Marginal mandibular branch)",
+      "C": "頰支 (Buccal branch)",
+      "D": "顴支 (Zygomatic branch)"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 3,
+    "question": "進行頸部淋巴腺廓清術時,當打開頸動脈鞘(carotid sheath)後,其內應無下列何構造?",
+    "options": {
+      "A": "頸內靜脈",
+      "B": "頸總動脈",
+      "C": "交感神經幹",
+      "D": "迷走神經"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 4,
+    "question": "感覺型失語症(receptive aphasia, sensory aphasia)其病灶部位最可能在:",
+    "options": {
+      "A": "左側 Broca area",
+      "B": "左側耳蝸神經核 (cochlear nucleus)",
+      "C": "左側 Wernicke area",
+      "D": "左側 arcuate fasciculus"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 5,
+    "question": "一棒球投手在一場比賽後,肩部劇痛,經檢查診斷為肩旋轉袖傷害(rotator cuff injury),下列那一個肩旋轉袖肌肉最可能受傷?",
+    "options": {
+      "A": "三角肌 (deltoid)",
+      "B": "臂三頭肌 (triceps brachii)",
+      "C": "胸大肌 (pectoralis major)",
+      "D": "棘突上肌 (supraspinatus)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 6,
+    "question": "心臟外科手術時,常經由下列何構造進行暫時性大動脈結紮?",
+    "options": {
+      "A": "動脈韌帶 (ligamentum arteriosum)",
+      "B": "心包膜橫竇 (transverse pericardial sinus)",
+      "C": "冠狀竇 (coronary sinus)",
+      "D": "終末溝 (sulcus terminalis)"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 7,
+    "question": "病人因聲音沙啞(hoarseness)而到耳鼻喉科就診,經檢查發現右側聲帶(vocal cord)無法外展,其病因最不可能為:",
+    "options": {
+      "A": "鎖骨 (clavicle)附近穿刺傷",
+      "B": "甲狀腺惡性腫瘤",
+      "C": "惡性腫瘤轉移所引起之中縱隔腔(middle mediastinum)淋巴結腫大",
+      "D": "甲狀腺手術之後遺症"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 8,
+    "question": "手腕隧道症候群(carpal tunnel syndrome)的患者,下列何者的功能較不受影響?",
+    "options": {
+      "A": "手掌魚際區(thenar eminence)的感覺",
+      "B": "手的對掌動作",
+      "C": "大拇指的感覺",
+      "D": "第三指的感覺"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 9,
+    "question": "因支配的神經受損而使得上孖肌(superior gemellus)退化萎縮,下列何者也可能受影響?",
+    "options": {
+      "A": "下孖肌 (inferior gemellus)",
+      "B": "梨狀肌 (piriformis)",
+      "C": "股方肌 (quadratus femoris)",
+      "D": "閉孔內肌 (obturator externus)"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 10,
+    "question": "下列何者主要行經於第一薦神經與第二薦神經之間,再經由坐骨大孔到臀部?",
+    "options": {
+      "A": "臀上動脈",
+      "B": "臀下動脈",
+      "C": "閉孔動脈",
+      "D": "陰部內動脈"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 11,
+    "question": "下列何者位於會陰淺隙(superficial perineal pouch)?",
+    "options": {
+      "A": "陰莖腳",
+      "B": "膜部尿道",
+      "C": "會陰深橫肌",
+      "D": "陰莖背側神經"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 12,
+    "question": "下列何者為支配陰囊前側邊的神經?",
+    "options": {
+      "A": "股神經",
+      "B": "陰部神經",
+      "C": "股後皮神經",
+      "D": "髂腹股溝神經"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 13,
+    "question": "下列何者將第二到第五的掌骨頭部(head of metacarpal bones)聯合在一起?",
+    "options": {
+      "A": "骨間韌帶 (interosseous ligament)",
+      "B": "側副韌帶 (collateral ligament)",
+      "C": "掌側韌帶 (palmar ligament)",
+      "D": "掌骨深橫韌帶 (deep transverse metacarpal ligaments)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 14,
+    "question": "下列何者有同行的動脈可幫助髖關節的血液供應?",
+    "options": {
+      "A": "股骨頭韌帶 (ligament of head of femur)",
+      "B": "髖臼橫韌帶 (transverse acetabular ligament)",
+      "C": "髂股韌帶 (iliofemoral ligament)",
+      "D": "恥股韌帶 (pubofemoral ligament)"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 15,
+    "question": "下列何者可同時動作兩個關節?",
+    "options": {
+      "A": "股外廣肌 (vastus lateralis)",
+      "B": "股內廣肌 (vastus medialis)",
+      "C": "股中廣肌 (vastus intermedius)",
+      "D": "股直肌 (rectus femoris)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 16,
+    "question": "下列何者在小腿與腓深神經(deep peroneal nerve)伴行?",
+    "options": {
+      "A": "腓動脈 (peroneal artery)",
+      "B": "脛後動脈 (posterior tibial artery)",
+      "C": "脛前動脈 (anterior tibial artery)",
+      "D": "膕動脈 (popliteal artery)"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 17,
+    "question": "下列關於骨盆內臟神經(pelvic splanchnic nerve)的敘述,何者正確?",
+    "options": {
+      "A": "源自交感神經幹 (sympathetic trunk)",
+      "B": "內含副交感節前神經纖維",
+      "C": "連至下腹下骨盆神經叢 (inferior hypogastric pelvic plexus)",
+      "D": "是第二至第四薦神經的腹側枝"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 18,
+    "question": "左肺門的肺動脈位在支氣管的:",
+    "options": {
+      "A": "上方",
+      "B": "下方",
+      "C": "前方",
+      "D": "後方"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 19,
+    "question": "肩胛骨下角(inferior angle)相對於第幾胸椎的棘突?",
+    "options": {
+      "A": "二",
+      "B": "三",
+      "C": "五",
+      "D": "七"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 20,
+    "question": "莖突咽肌(stylopharyngeal muscle)由下列何者支配?",
+    "options": {
+      "A": "第九顱神經",
+      "B": "第七顱神經",
+      "C": "下頜神經 (mandibular nerve)",
+      "D": "交感神經 (sympathetic nerve)"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 21,
+    "question": "左側第九到十一後肋間靜脈血直接回流入下列何者?",
+    "options": {
+      "A": "奇靜脈 (azygos vein)",
+      "B": "半奇靜脈 (hemiazygos vein)",
+      "C": "左鎖骨下靜脈 (left subclavian vein)",
+      "D": "內胸靜脈 (internal thoracic vein)"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 22,
+    "question": "下列有關眼眶(orbit)之敘述,何者錯誤?",
+    "options": {
+      "A": "其內所含之副交感神經節前纖維來自第三顱神經",
+      "B": "其內所含之感覺神經纖維皆來自第五顱神經",
+      "C": "其內所含之骨骼肌受第三、四或六顱神經控制",
+      "D": "眼球之血液供應來自眼動脈 (ophthalmic artery)"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 23,
+    "question": "下列何者是經由舌神經(lingual nerve)本身之神經纖維傳遞?",
+    "options": {
+      "A": "舌前三分之二部分的一般感覺",
+      "B": "舌內肌之控制",
+      "C": "舌前三分之二部分的味覺",
+      "D": "舌下腺之分泌"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 24,
+    "question": "下列有關鼻咽(nasopharynx)之敘述,何者錯誤?",
+    "options": {
+      "A": "後壁上有咽扁桃體 (pharyngeal tonsil)",
+      "B": "側壁上有鼻咽管 (nasopharyngeal tube)之開口",
+      "C": "經鼻後孔 (choana)前通鼻腔",
+      "D": "上咽收縮肌 (superior pharyngeal constrictor)形成其側壁及後壁"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 25,
+    "question": "下列有關視網膜小凹(fovea)的敘述,何者錯誤?",
+    "options": {
+      "A": "位在眼球的後極 (posterior pole)",
+      "B": "其底部唯有外核層 (outer nuclear layer)和感光細胞的外節 (outer segment)存在",
+      "C": "此處的錐細胞 (cones)比桿細胞 (rods)多",
+      "D": "視覺最清晰"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 26,
+    "question": "外膝狀體核未接受下列何者投射的神經纖維?",
+    "options": {
+      "A": "上丘 (superior colliculus)",
+      "B": "藍斑核 (locus coeruleus)",
+      "C": "背側縫核 (dorsal raphe nucleus)",
+      "D": "視覺皮質第18區 (visual cortex, area 18)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 27,
+    "question": "中腦的神經核中,含多巴胺(dopamine)神經元者為:",
+    "options": {
+      "A": "紅核 (red nucleus)",
+      "B": "黑質緻密部 (substantia nigra, pars compacta)",
+      "C": "後縫核 (posterior raphe nucleus)",
+      "D": "上丘 (superior colliculus)"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 28,
+    "question": "下列何處之感覺神經元可傳遞頭部本體覺?",
+    "options": {
+      "A": "中腦",
+      "B": "延腦",
+      "C": "橋腦",
+      "D": "脊髓"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 29,
+    "question": "下列關於受精作用(fertilization)之敘述,何者正確?",
+    "options": {
+      "A": "通常發生於子宮腔",
+      "B": "在卵子產生第二極體 (2nd polar body)後發生",
+      "C": "通常在排卵後3-5天發生",
+      "D": "可促使卵細胞 (oocyte)活化"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 30,
+    "question": "肝臟中,由內胚層發育而來的是:",
+    "options": {
+      "A": "肝索細胞 (cord of hepatic cell)",
+      "B": "纖維組織 (fibrous tissue)",
+      "C": "造血組織 (hematopoietic tissue)",
+      "D": "庫弗氏細胞 (Kupffer cell)"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 31,
+    "question": "關於胎兒心臟系統的敘述,何者錯誤?",
+    "options": {
+      "A": "右心房約有三分之一血液經卵圓孔到左心房",
+      "B": "肺靜脈由肺臟帶回充氧血至左心房",
+      "C": "動脈導管連通主動脈與肺動脈",
+      "D": "靜脈導管在下腔靜脈與臍靜脈間"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 32,
+    "question": "關於腦垂體的發育,下列敘述何者正確?",
+    "options": {
+      "A": "垂體漏斗 (infundibulum)屬於腺體部分",
+      "B": "神經垂體 (neurohypophysis)為中腦衍生而來",
+      "C": "神經外胚層發育為腦垂體前葉 (anterior lobe)",
+      "D": "腺垂體 (adenohypophysis)來自口腔外胚層"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 33,
+    "question": "下列敘述何者正確?",
+    "options": {
+      "A": "胞器膜的厚度為 30-40 nm",
+      "B": "核糖體大小約 60-80 nm",
+      "C": "個別肝醣顆粒大小約 70-100 nm",
+      "D": "溶酶體 (lysosomes)大小約 0.2-0.5 µm"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 34,
+    "question": "下列何者是透明軟骨的特徵?",
+    "options": {
+      "A": "有許多細胞間質",
+      "B": "含有豐富的微血管",
+      "C": "細胞形成同心圓排列的哈維氏系統",
+      "D": "細胞間質含鈣鹽沉積"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 35,
+    "question": "下列有關神經細胞尼氏體(Nissl's body)的敘述,何者正確?",
+    "options": {
+      "A": "由高爾基氏體和核糖體所構成",
+      "B": "出現於細胞體和樹突內,但軸突內則無",
+      "C": "只能在電子顯微鏡下觀察,光學鏡下無法看到",
+      "D": "通常位在突觸小泡內"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 36,
+    "question": "下列有關脾臟的敘述,何者正確?",
+    "options": {
+      "A": "圍動脈淋巴鞘 (Periarterial lymphatic sheath, PALS)主要由 B 淋巴球構成",
+      "B": "淋巴小結 (lymphatic nodules)主要由 T 淋巴球構成",
+      "C": "PALS 與淋巴小結構成紅髓 (red pulp)",
+      "D": "在白髓 (white pulp)中淋巴組織圍繞的血管是中央動脈 (central artery)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 37,
+    "question": "「漿細胞 (plasma cell)」具有下列何種特徵?",
+    "options": {
+      "A": "細胞核是扁平形,常位於細胞中央",
+      "B": "細胞內有許多平滑內質網 (smooth endoplasmic reticulum)",
+      "C": "是由 T 淋巴球 (T lymphocyte)分化而成",
+      "D": "分布在脾的脾索 (splenic cord)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 38,
+    "question": "膽小管 (bile canaliculi)是藉由下列那些細胞間的接合複體 (junctional complex)形成?",
+    "options": {
+      "A": "肝細胞與肝細胞",
+      "B": "肝細胞與內皮細胞",
+      "C": "伊藤細胞與內皮細胞",
+      "D": "內皮細胞與內皮細胞"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 39,
+    "question": "下列何者具有角質化複層扁平上皮 (stratified squamous keratinized epithelium)?",
+    "options": {
+      "A": "鼻咽部 (nasopharynx)",
+      "B": "硬腭 (hard palate)",
+      "C": "鼻腔呼吸部 (respiratory nasal cavity)",
+      "D": "鼻腔前庭 (nasal vestibule)"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 40,
+    "question": "有關精子通過之前後路徑,下列那一項組合正確?",
+    "options": {
+      "A": "輸精管 (ductus deferens)→睪丸網 (rete testis)→副睪 (epidydimis)→射精管 (ejaculatory duct)",
+      "B": "睪丸網 (rete testis)→射精管 (ejaculatory duct)→輸精管 (ductus deferens)→儲精囊 (seminal vesicle)",
+      "C": "輸精管 (ductus deferens)→射精管 (ejaculatory duct)→膀胱 (bladder)→尿道 (urethral)",
+      "D": "睪丸網 (rete testis)→副睪 (epidydimis)→輸精管 (ductus deferens)→射精管 (ejaculatory duct)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 41,
+    "question": "具有靜纖毛(stereocilia)的毛細胞可在耳朵多處發現,但下列何者不具有此構造?",
+    "options": {
+      "A": "橢圓囊斑 (macula of utricle)",
+      "B": "耳蝸的 Corti 氏器",
+      "C": "前庭器壺腹 (ampulla of vestibular apparatus)",
+      "D": "聽管 (auditory or Eustachian tube)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 42,
+    "question": "Acid-fast stain 是用於觀察下列那一種感染原的染色方法?",
+    "options": {
+      "A": "Listeria monocytogenes",
+      "B": "Treponema pallidum",
+      "C": "Mycobacterium tuberculosis",
+      "D": "Chlamydia trachomatis"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 43,
+    "question": "下列那一種 Staphylococcal enterotoxin 型最易引發食物中毒?",
+    "options": {
+      "A": "Staphylococcal enterotoxin A",
+      "B": "Staphylococcal enterotoxin B",
+      "C": "Staphylococcal enterotoxin C",
+      "D": "Staphylococcal enterotoxin D"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 44,
+    "question": "下列有關百日咳毒素(pertussis toxin)的敘述,何者錯誤?",
+    "options": {
+      "A": "是一種外毒素 (exotoxin)",
+      "B": "藉著在細胞膜上打洞而毒殺宿主細胞",
+      "C": "會增加呼吸道黏液的分泌",
+      "D": "是組成百日咳疫苗的成分之一"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 45,
+    "question": "成人身上發生的化膿性關節炎(purulent arthritis)最常因下列那種細菌感染所引起?",
+    "options": {
+      "A": "脆弱擬桿菌 (Bacteroides fragilis)",
+      "B": "大腸桿菌 (Escherichia coli)",
+      "C": "金黃色葡萄球菌 (Staphylococcus aureus)",
+      "D": "淋病球菌 (Neisseria gonorrhoeae)"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 46,
+    "question": "大腸桿菌(Escherichia coli)所引起各種不同型態的腹瀉症(diarrhea)主要取決於:",
+    "options": {
+      "A": "共同感染的其他細菌之種類",
+      "B": "此菌的體表抗原性",
+      "C": "宿主的免疫力",
+      "D": "此菌所產生的毒力因素"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 47,
+    "question": "細菌表面的 pili 或 fimbriae 通常造成宿主致病力的機轉為何?",
+    "options": {
+      "A": "附著至特定的細胞表面",
+      "B": "增強細菌的移動力",
+      "C": "抵抗吞噬作用",
+      "D": "增強內毒素的作用"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 48,
+    "question": "Rifampin 為治療結核病的第一線藥物,其抑菌機轉為何?",
+    "options": {
+      "A": "與細菌的 penicillin binding protein 結合,阻斷細菌細胞壁的合成",
+      "B": "與細菌的 30S 核糖體蛋白結合,阻斷細菌蛋白質的生成",
+      "C": "與細菌 DNA-dependent RNA polymerase 結合,阻斷細菌 RNA 合成的起始 (initiation of RNA synthesis)",
+      "D": "與細菌 Dihydrofolate reductase 結合,阻斷細菌葉酸的代謝路徑"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 49,
+    "question": "一名 60 歲患有糖尿病的農夫在夏季豪雨過後下田整理農地,三天後出現發燒和倦怠,送醫就診發現有輕微肺炎症狀。由其血液檢體分離出一株革蘭氏陰性、不發酵醣類的桿菌。下列何者最有可能是這名農夫所罹患的感染症?",
+    "options": {
+      "A": "炭疽病 (anthrax)",
+      "B": "破傷風 (tetanus)",
+      "C": "傷寒 (enteric fever)",
+      "D": "類鼻疽 (melioidosis)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 50,
+    "question": "承上題,此人所感染的致病菌在生理特徵和致病性方面與下列那種細菌最相近?",
+    "options": {
+      "A": "流感嗜血桿菌 (Haemophilus influenzae)",
+      "B": "白喉桿菌 (Corynebacterium diphtheriae)",
+      "C": "綠膿桿菌 (Pseudomonas aeruginosa)",
+      "D": "嗜肺性退伍軍人桿菌 (Legionella pneumophila)"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 51,
+    "question": "某人因角膜發炎並有畏光、疼痛和流淚等症狀,經眼科醫師診斷後,認為該人受披衣菌感染,是為砂眼(trachoma)。下列何種抗生素常用於此眼疾的治療?",
+    "options": {
+      "A": "doxycycline",
+      "B": "vancomycin",
+      "C": "penicillin",
+      "D": "bacitracin"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 52,
+    "question": "嗜肺性退伍軍人桿菌(Legionella pneumophila)為新興傳染病原之一,會造成許多流行性及散發性的感染症。此細菌主要是如何傳播的?",
+    "options": {
+      "A": "由病媒傳染給人",
+      "B": "由人直接傳染給人",
+      "C": "由動物傳染給人",
+      "D": "由空氣微粒傳染給人"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 53,
+    "question": "下列何者與病毒造成寄主細胞之轉型(transformation)無關?",
+    "options": {
+      "A": "Adenovirus E1A",
+      "B": "Papillomavirus E6",
+      "C": "HIV Nef",
+      "D": "Simian virus 40 (SV40) T antigen"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 54,
+    "question": "抑制單純疱疹病毒之藥物 acyclovir,其標的為何?",
+    "options": {
+      "A": "直接破壞病毒的組成,造成病毒結構解離",
+      "B": "阻止病毒從寄主細胞中釋放出來",
+      "C": "病毒胸腺激酶 (thymidine kinase)",
+      "D": "抑制病毒 RNA 合成酶 (RNA polymerase)的作用"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 55,
+    "question": "下列那一種病毒感染可能引起軍隊中常發生之發燒、咳嗽、喉嚨痛、咽喉炎及頸腺炎(cervical adenitis)等病徵之疾病?",
+    "options": {
+      "A": "副流行性感冒病毒 (Parainfluenza virus)",
+      "B": "人類乳突狀病毒 (HPV)",
+      "C": "單純疱疹病毒 (Herpes simplex virus)",
+      "D": "腺病毒 (Adenovirus)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 56,
+    "question": "下列有關正黏液病毒(Orthomyxoviridae)及副黏液病毒(Paramyxoviridae)科病毒比較之敘述,何者正確?",
+    "options": {
+      "A": "兩者都會造成細胞融合 (Syncytium)",
+      "B": "基因體皆有分段 (segmented)",
+      "C": "兩者 RNA splicing 皆發生在核內",
+      "D": "兩者皆可經由呼吸道傳染"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 57,
+    "question": "下列有關疱疹病毒(Herpesvirus)之敘述,何者錯誤?",
+    "options": {
+      "A": "雙股 DNA 病毒",
+      "B": "唇部疱疹 (cold sore)主要由第一型單純疱疹病毒 (HSV-1)所引起",
+      "C": "病毒感染後,病人痊癒,終生免疫,不再犯病",
+      "D": "人類疱疹病毒第八型 (HHV-8)感染產生卡波西氏肉瘤 (Kaposi's sarcoma)"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 58,
+    "question": "某國小一年級女童來自農村,家中飼養雞、鴨及豬等動物,於八月多雨之酷暑下突然開始發燒、嘔吐、頭痛,此外還抽筋、意識不清、手部震顫,角弓反張,最後該病人牙關緊閉、四肢僵硬,並呈現昏迷之現象。該患者可能被何種病原菌所感染?",
+    "options": {
+      "A": "登革病毒 (Dengue virus)",
+      "B": "禽流感病毒 (Influenza virus)",
+      "C": "日本腦炎病毒 (Japanese encephalitis virus)",
+      "D": "C型肝炎病毒 (HCV)"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 59,
+    "question": "下列何種病毒,其核酸為雙鏈負股 RNA,經由糞口途徑傳染,發病初期出現如感冒樣症狀,發燒、嘔吐、咳嗽、流鼻水,1至2天後會造成腸黏膜發炎、絨毛萎縮,這時候會出現水瀉,有如蛋花湯般的水便?",
+    "options": {
+      "A": "輪狀病毒 (Rotavirus)",
+      "B": "腸病毒 71 型 (EV71)",
+      "C": "鼻病毒 (Rhinovirus)",
+      "D": "小兒麻痺病毒 (Poliovirus)"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 60,
+    "question": "新型隱球菌(Cryptococcus neoformans)型態上之特徵為何?",
+    "options": {
+      "A": "無莢膜 (without capsule)之兩型性 (dimorphic)圓球狀酵母菌",
+      "B": "雪茄型酵母菌 (cigar-shaped yeast),不具兩型性",
+      "C": "中裂型具有薄層莢膜兩型性 (dimorphic)橢圓形酵母菌",
+      "D": "具寬厚莢膜圓球狀酵母菌"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 61,
+    "question": "從病患肺部中取出之檢體切片經 Periodic acid-Schiff(PAS)染色後,發現許多紫紅色之寬闊帶狀(Broad, ribbon-like),無隔膜菌絲(Coenocytic hyphae)穿過組織,診斷上極可能推向是那一種真菌疾病?",
+    "options": {
+      "A": "新型隱球菌症 (Cryptococcosis)",
+      "B": "麴菌症 (Aspergillosis)",
+      "C": "孢子絲菌症 (Sporotrichosis)",
+      "D": "接合菌症 (Zygomycosis)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 62,
+    "question": "對於 B 型、T 型細胞的抗原受體(antigen receptor),下列那一種敘述正確?",
+    "options": {
+      "A": "抗原受體的基因在胚原型 (germline)時,蛋白質可被表現",
+      "B": "遭遇抗原刺激前,抗原受體已呈現於細胞膜上",
+      "C": "抗原受體接受刺激後,本身單獨即可傳遞訊息使細胞活化",
+      "D": "細胞活化後,其抗原受體皆可被分泌到細胞外"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 63,
+    "question": "下列那一種成熟的血球細胞沒有表現第一型主要組織相容性複合體(MHC class I)分子?",
+    "options": {
+      "A": "B 細胞",
+      "B": "紅血球",
+      "C": "T 細胞",
+      "D": "巨噬細胞"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 64,
+    "question": "濾過性病毒利用細胞表面的分子當作進入接受體來選擇可感染的細胞。HIV 用 CD4 當作主要接受體,CXCR4 和 CCR5 當作共同接受體。所以 HIV 主要感染下列那一種細胞?",
+    "options": {
+      "A": "細胞毒殺性 T 細胞",
+      "B": "輔助性 T 細胞",
+      "C": "活化的 B 細胞",
+      "D": "自然殺手 (NK)細胞"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 65,
+    "question": "有關腸黏膜中 lamina propria 與上皮細胞之間的免疫細胞成分之敘述,下列何者正確?",
+    "options": {
+      "A": "lamina propria 主要以 CD8+ T 細胞為主",
+      "B": "上皮細胞之間的免疫細胞主要為 NKT 細胞",
+      "C": "樹突細胞只在 lamina propria 出現,並不會直接接觸腸道的細菌",
+      "D": "嗜中性白血球較少出現在腸黏膜中,但是遇到感染時會很快遷移至發炎處"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 66,
+    "question": "下列有關胸腺教育的敘述,何者與自我耐受性(self tolerance)的形成最不相關?",
+    "options": {
+      "A": "正向選擇 (positive selection)",
+      "B": "負向選擇 (negative selection)",
+      "C": "調節性 T 細胞 (regulatory T cell)之發育",
+      "D": "胸腺抗原呈現細胞表現自體抗原 (self-antigen)"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 67,
+    "question": "有關自然殺手細胞(natural killer cells)之敘述,下列何者錯誤?",
+    "options": {
+      "A": "發源於共同淋巴先驅細胞 (common lymphoid progenitor cell)",
+      "B": "具有毒殺顆粒 (cytotoxic granules),釋放其中之物質以執行毒殺作用",
+      "C": "能毒殺不表現或低度表現第一型 MHC(MHC class I)分子之異常細胞",
+      "D": "其作用屬於適應性免疫力 (adaptive immunity)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 68,
+    "question": "當抗原侵入血液循環時,B 及 T 細胞免疫反應在何處發生?",
+    "options": {
+      "A": "血液",
+      "B": "肝臟",
+      "C": "脾臟",
+      "D": "淋巴結"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 69,
+    "question": "下列有關抗原決定位(epitope)之敘述,何者正確?",
+    "options": {
+      "A": "一個蛋白質只具備一種抗原決定位",
+      "B": "能被抗體之 Fc 部位辨識",
+      "C": "能被抗體之 Fab 部位辨識",
+      "D": "能被 Fc 受器 (Fc-receptor)辨識"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 70,
+    "question": "有位感染 Mycobacterium leprae(M. leprae)的病人前來就診,病人主要有皮膚發炎與神經系統發炎的症狀,血液中對抗 M. leprae 的抗體效價不高,巨噬細胞內的 M. leprae 也沒有很多,下列那種細胞比較可能與病人臨床症狀有關?",
+    "options": {
+      "A": "第一型輔助型 T 細胞 (TH1)",
+      "B": "第二型輔助型 T 細胞 (TH2)",
+      "C": "第三型輔助型 T 細胞 (TH3)",
+      "D": "調節性 T 細胞 (regulatory T cell)"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 71,
+    "question": "張先生腎臟衰竭到了末期,接受透析治療一段時間後,接到醫院的通知,可以準備接受腎臟移植。有一陌生捐贈者車禍致腦死,將捐出器官,其中一枚腎臟配給張先生。張先生與捐贈者的主要組織相容性複合體(Major Histocompatibility Complex)測試定型是完全相同的。那麼張先生腎臟移植之後,其預後情形可能為何?",
+    "options": {
+      "A": "將不會有排斥反應,因為主要組織相容性複合體經測試定型是完全相同的",
+      "B": "將不會有排斥反應,因為次要組織相容性複合體也是完全相同的",
+      "C": "將會有排斥反應,因為即使主要組織相容性複合體相同,其他的組織抗原可能不一樣,也會引起免疫反應",
+      "D": "將會有排斥反應,因為張先生腎臟移植之前,按程序須先接受身體放射準備 (total body irradiation)所致"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 72,
+    "question": "張先生登山遭毒蛇咬傷,經注射抗蛇毒血清後症狀獲得控制而康復。如果他下一次再被蛇咬,接受抗蛇毒血清治療時,需注意血清病(serum sickness)的不良反應。下列關於血清病的敘述,何者正確?",
+    "options": {
+      "A": "是因為毒蛇的血清經由傷口進入病患而引起疾病",
+      "B": "是因為抗原抗體複合體堆積所產生",
+      "C": "是因為蛇毒具特異性的 T 細胞聚集在血清中產生組織傷害",
+      "D": "血清中的病毒削弱免疫能力而產生疾病"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 73,
+    "question": "某些人類白血球抗原(Human Leukocyte Antigens, HLA)基因在某自體免疫疾病患者中的存在有較為增高現象,是為有較高的「相較性的危險值」(relative risk)引起自體免疫致病性。有關這些相關性下列那一項敘述正確?",
+    "options": {
+      "A": "B27 對於第一型糖尿病 (type 1 diabetes mellitus)",
+      "B": "B27 對於葛瑞夫氏症 (Graves' disease)",
+      "C": "B27 對於尋常天疱瘡 (pemphigus vulgaris)",
+      "D": "B27 對於僵直性脊椎炎 (Ankylosing spondylitis)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 74,
+    "question": "茂伯因為工作時小腿外傷導致感染,到鄰近藥局購買無行政院衛生署核准的青黴素外用軟膏使用,二週後傷口無改善而住院,治療使用注射抗生素時卻產生嚴重的無防禦性過敏反應。引起此藥物過敏的免疫機轉下列何者正確?",
+    "options": {
+      "A": "引起過敏反應的免疫機轉歸類為抗原抗體複合體反應",
+      "B": "引起過敏反應的免疫機轉歸類為第二型過敏反應",
+      "C": "注射後產生過敏反應的時間約需 48 小時",
+      "D": "此過敏反應是因為細菌產生抗藥性引起的"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 75,
+    "question": "人體蟯蟲(Enterobius vermicularis)感染最常使用的診斷方法為何?",
+    "options": {
+      "A": "直接塗抹法 (Direct wet film method)",
+      "B": "玻璃膠紙肛圍擦拭法 (Cellophane tape perianal swabs method)",
+      "C": "福馬林-乙醚濃縮法 (Formol-ether concentration technique)",
+      "D": "飽和食鹽水浮游法 (Saturated sodium chloride solution floating method)"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 76,
+    "question": "下列有關人體感染糞小桿線蟲(Strongyloides stercoralis)的敘述,何者正確?",
+    "options": {
+      "A": "通常因吞食絲狀 (filariform)幼蟲而感染",
+      "B": "即使嚴重感染也不會引起貧血",
+      "C": "在免疫妥協 (immunocompromised)病人造成瀰漫性感染",
+      "D": "糞便藉由“浮游法,floatation method”可以提高檢出率"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 77,
+    "question": "吸蟲(trematodes)生活史大多需經兩種中間宿主,下列何者為共同必需的中間宿主?",
+    "options": {
+      "A": "水生植物",
+      "B": "淡水螺",
+      "C": "淡水魚",
+      "D": "節肢動物"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 78,
+    "question": "下列有關瘧疾的敘述,何者正確?",
+    "options": {
+      "A": "復燃 (recurrence)現象,常見於間日瘧及卵形瘧患者",
+      "B": "primaquine 可殺滅瘧原蟲之血液裂殖體 (blood schizonts)及配子細胞 (gametocytes),因而可根治間日瘧",
+      "C": "地中海貧血 (thalassemia)患者對惡性瘧之抵抗力較高",
+      "D": "惡性瘧的復發源自肝細胞中之休眠子 (hypnozoites)"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 79,
+    "question": "臨床上要診斷內臟幼蟲移行症(visceral larva migrans)須根據下列那三個診斷依據?",
+    "options": {
+      "A": "嗜伊紅性白血球增多、脾臟腫大、血清白蛋白增多",
+      "B": "嗜中性白血球增多、肝臟腫大、血清球蛋白增多",
+      "C": "嗜伊紅性白血球增多、肝臟腫大、血清球蛋白增多",
+      "D": "嗜中性白血球增多、脾臟腫大、血清白蛋白增多"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 80,
+    "question": "林先生幾個星期前到泰國旅遊時吃了特殊處理的生豬肉,不久後即開始有腹痛,最近眼眶附近浮腫,很幸運的從浮腫部位手術摘除將近 1 公分大小的蟲體而痊癒,林先生最可能感染到何種寄生蟲?",
+    "options": {
+      "A": "蟠尾絲蟲 (Onchocerca volvulus)",
+      "B": "有棘顎口線蟲 (Gnathostoma spinigerum)",
+      "C": "結膜吸吮線蟲 (Thelazia callipaeda)",
+      "D": "麥地那蟲 (Dracunculus medinensis)"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 81,
+    "question": "下列敘述,何者錯誤?",
+    "options": {
+      "A": "配戴隱形眼鏡者是罹患棘阿米巴性角膜炎 (Acanthamoeba keratitis)的高危險群",
+      "B": "早期棘阿米巴性角膜炎患者常需進行角膜移植恢復視力,近年來多已可用藥物治癒",
+      "C": "自營生活的阿米巴 (free-living amoebae)所造成的腦部感染均與游泳有關",
+      "D": "棘阿米巴與巴氏阿米巴 (Balamuthia mandrillaris)的患者通常免疫力較差"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 82,
+    "question": "下列何者之唾液含有神經毒素,在吸食宿主血液時,會造成宿主之運動神經麻痺?",
+    "options": {
+      "A": "體蝨 (body louse)",
+      "B": "臭蟲 (bedbug)",
+      "C": "舌蠅 (tsetse fly)",
+      "D": "蜱 (tick)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 83,
+    "question": "當一個研究者結論未能偵測出顯著的效應,下列何者的誤差和研究者的結論有關聯?",
+    "options": {
+      "A": "因為樣本數太小,此結論錯誤的可能性很低",
+      "B": "犯下第二誤差的可能性很小",
+      "C": "第一誤差的機率大於 0.05",
+      "D": "犯下第二誤差的可能性很大"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 84,
+    "question": "下列有關醫療市場的特性,何者是最適當的組合關係?①異於一般市場,具有非市場性 ②需求和供給各有其特性,並不同於一般商品之交易 ③價格是由需求和供給之關係決定 ④醫療需求者無法預知價格而成為價格之接受者 ⑤醫療提供者處於賣方居於優勢主導之形勢",
+    "options": {
+      "A": "①②③④⑤",
+      "B": "②③④⑤",
+      "C": "①②③④",
+      "D": "①②④⑤"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 85,
+    "question": "下列有關「利他主義」(Altruism)、「公平」(Equity)、「正義」(Justice)、「效率」(Efficiency)的敘述,何者錯誤?",
+    "options": {
+      "A": "「利他主義」的思考邏輯和個人偏好有關,因為具有利他思想的人會偏好生病者可以獲得適當的醫療服務",
+      "B": "「公平」與「正義」的思考邏輯和個人偏好無關,因為公平正義的概念來自於一套特定價值標準的推導",
+      "C": "有「效率」的醫療體系運作結果,自然會導致「公平」的資源配置",
+      "D": "「利他主義」的思考邏輯和「效率」的概念均與個人偏好有關"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 86,
+    "question": "下列有關國民所得與總體醫療費用的敘述,何者較為正確?",
+    "options": {
+      "A": "一般而言,國民所得增加與長期的總體醫療費用增加並沒有直接的關係",
+      "B": "長期而言,國民所得增加的比率,會小於總體醫療費用增加的比率,亦即醫療服務是奢侈品",
+      "C": "長期而言,國民所得增加的比率,會大於總體醫療費用增加的比率,亦即醫療服務是必需品",
+      "D": "長期而言,國民所得增加的比率,會等於總體醫療費用增加的比率"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 87,
+    "question": "當教學目標設定為「態度改變」時,採用那一種教學方法最合適?",
+    "options": {
+      "A": "讓學生分組後進行辯論",
+      "B": "老師以一對一方式指導",
+      "C": "請專家到班上做演講",
+      "D": "讓學生自行觀看影片"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 88,
+    "question": "在癌症篩檢中常會發生存活率延長的假象,係由何種偏差所造成的?",
+    "options": {
+      "A": "資訊偏差 (Information bias)",
+      "B": "選樣偏差 (Selection bias)",
+      "C": "過度診斷偏差 (Overdiagnosis bias)",
+      "D": "領先時間偏差 (Lead-time bias)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 89,
+    "question": "在醫療院所內執行病人衛生教育時,其對象以下列那一種安排最理想?",
+    "options": {
+      "A": "病人本身",
+      "B": "病人的子女",
+      "C": "病人的配偶",
+      "D": "病人及主要照顧者"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 90,
+    "question": "具有接觸性皮膚炎、雷諾氏症、皮膚潰瘍病史之職業性皮膚炎患者,尤需注意避免暴露於下列何種物質中?",
+    "options": {
+      "A": "汞",
+      "B": "砷",
+      "C": "鉛",
+      "D": "鉻"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 91,
+    "question": "單純以加氯消毒飲用水,對下列那一種病原體效果不佳?",
+    "options": {
+      "A": "梨型鞭毛蟲 (Giardia)",
+      "B": "沙門桿菌 (Salmonella)",
+      "C": "志賀桿菌 (Shigella)",
+      "D": "大腸桿菌 (Esherichia Coli)"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 92,
+    "question": "下列那一項不是世代追蹤研究偏差的來源?",
+    "options": {
+      "A": "追蹤漏失率",
+      "B": "暴露組與非暴露組資料蒐集的完整性不同",
+      "C": "稀有暴露",
+      "D": "研究對象不回應者"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 93,
+    "question": "下列何種方式對空氣污染物之控制最有效?",
+    "options": {
+      "A": "隔離",
+      "B": "取代",
+      "C": "濕式作業",
+      "D": "集塵設施"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 94,
+    "question": "個案對照研究法(case-control study)與回溯性世代研究(retrospective cohort study)的最大差異點為:",
+    "options": {
+      "A": "個案進入研究時,疾病是否已發生",
+      "B": "是否有探討干擾因子",
+      "C": "個案是經由疾病狀態或暴露分類的不同進入研究",
+      "D": "是否有隨機取樣"
+    },
+    "answer": "#",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 95,
+    "question": "有一個研究探討某一藥物對於尿液鈣離子的排泄效應,有 9 位受試者被隨機選出,口服 0.5 毫克的藥物,在服用藥物 6 個小時後收集這些人的尿液。另隨機抽取 16 位受試者,這些人不服用藥物,同樣在被隨機選出後 6 個小時收集這些人的尿液。研究者的問題是「這兩群人排泄的尿液鈣離子濃度是否顯著不同?」你將採用何種統計方法檢定上述資料?",
+    "options": {
+      "A": "兩個樣本 t 檢定",
+      "B": "卡方檢定",
+      "C": "配對 t 檢定",
+      "D": "麥內瑪檢定 (McNemar's Test)"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 96,
+    "question": "某學者比較甲乙兩個國家的死亡率時,粗死亡率(crude death rate)甲國比乙國高(甲國 900 人/每10 萬人,乙國 800 人/每 10 萬人)。甲國的年齡標準化死亡率(age-standardized death rate)則比乙國低(甲國 738 人/每 10 萬人,乙國 770 人/每 10 萬人),下列敘述何者正確?",
+    "options": {
+      "A": "甲國平均每年每 10 萬人口死亡 738 人",
+      "B": "甲國的老年人口比乙國少",
+      "C": "標準化死亡率可以使用第三國當參考族群",
+      "D": "使用不同參考族群的標準化死亡率可以互相比較"
+    },
+    "answer": "C",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 97,
+    "question": "如果白人小孩的平均血漿醛固酮(plasma-aldosterone)為 400 pmol/L,標準差為 200 pmol/L,假設血漿醛固酮為常態分布,有多少百分比的白人小孩其血漿醛固酮≤300 pmol/L? (Pr(Z≥0.5))=0.3085",
+    "options": {
+      "A": "30.85",
+      "B": "19.15",
+      "C": "69.15",
+      "D": "38.30"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 98,
+    "question": "淋病(Gonorrhea)可以一再地感染同一個宿主的原因為何?",
+    "options": {
+      "A": "免疫激發力 (immunogenicity)低",
+      "B": "免疫激發力高",
+      "C": "毒性 (virulence)低",
+      "D": "毒性高"
+    },
+    "answer": "A",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 99,
+    "question": "某種疾病的篩選方法研究結果如下表,則下列那一個是假陽性率(false positivity)?\n篩檢 疾病\n有 無\n陽性 a c\n陰性 b d",
+    "options": {
+      "A": "a/(a+b)",
+      "B": "a/(a+c)",
+      "C": "d/(b+d)",
+      "D": "c/(c+d)"
+    },
+    "answer": "D",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  },
+  {
+    "id": 100,
+    "question": "臨床試驗中,實施受試者單盲程序(single blind)之主要目的為何?",
+    "options": {
+      "A": "去除干擾作用",
+      "B": "去除「霍桑效應(Hawthorne Effect)」",
+      "C": "去除研究者的系統性偏差",
+      "D": "去除樣本數太小所造成的誤差"
+    },
+    "answer": "B",
+    "subject": "medicine",
+    "data_source": "民國 100年 高等考試 醫師(一) 醫學(一)"
+  }
+]
