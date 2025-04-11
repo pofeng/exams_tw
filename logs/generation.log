@@ -1,0 +1,798 @@
+2025-04-11 02:46:57,873 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 02:46:57,875 - __main__ - INFO - 290 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 02:46:57,875 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 02:46:57,876 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_101_01_Q.pdf
+2025-04-11 02:46:57,876 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_101_01_Q.pdf
+2025-04-11 02:46:57,876 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 02:46:57,877 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:48:32,441 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:48:32,454 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:48:32,454 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 2105, 輸出: 14522, 總計: 16627
+2025-04-11 02:48:32,455 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 100 個題目
+2025-04-11 02:48:32,455 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 100 個題目
+2025-04-11 02:48:32,455 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_101_01_A.pdf
+2025-04-11 02:48:32,456 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_101_01_A.pdf
+2025-04-11 02:48:32,456 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 02:48:32,457 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:48:44,270 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:48:44,276 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:48:44,276 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 2273, 總計: 3630
+2025-04-11 02:48:44,277 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 100 個答案項目
+2025-04-11 02:48:44,277 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 100 個答案
+2025-04-11 02:48:44,277 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00002328.json
+2025-04-11 02:48:44,277 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 100，答案數量: 100
+2025-04-11 02:48:44,277 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 100 筆完整資料
+2025-04-11 02:48:44,277 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 100 筆完整資料
+2025-04-11 02:48:44,278 - __main__ - INFO - 354 - INFO - 已將 100 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 02:48:44,313 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 02:48:44,313 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00002328.json
+2025-04-11 02:48:44,313 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 02:48:44,314 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_101_02_Q.pdf
+2025-04-11 02:48:44,314 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_101_02_Q.pdf
+2025-04-11 02:48:44,314 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 02:48:44,315 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:50:20,055 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:50:20,068 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:50:20,068 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 2105, 輸出: 14939, 總計: 17044
+2025-04-11 02:50:20,069 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 100 個題目
+2025-04-11 02:50:20,069 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 100 個題目
+2025-04-11 02:50:20,070 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_101_02_A.pdf
+2025-04-11 02:50:20,070 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_101_02_A.pdf
+2025-04-11 02:50:20,070 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 02:50:20,071 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:50:31,455 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:50:31,460 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:50:31,461 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 2275, 總計: 3632
+2025-04-11 02:50:31,461 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 100 個答案項目
+2025-04-11 02:50:31,461 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 100 個答案
+2025-04-11 02:50:31,461 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00002329.json
+2025-04-11 02:50:31,462 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 100，答案數量: 100
+2025-04-11 02:50:31,462 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 100 筆完整資料
+2025-04-11 02:50:31,462 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 100 筆完整資料
+2025-04-11 02:50:31,462 - __main__ - INFO - 354 - INFO - 已將 100 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 02:50:31,498 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 02:50:31,499 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00002329.json
+2025-04-11 02:50:31,499 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 02:50:31,499 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_01_Q.pdf
+2025-04-11 02:50:31,500 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_01_Q.pdf
+2025-04-11 02:50:31,500 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 02:50:31,501 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:52:16,703 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:52:16,717 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:52:16,717 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 14801, 總計: 17938
+2025-04-11 02:52:16,718 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 02:52:16,718 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 02:52:16,718 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_01_A.pdf
+2025-04-11 02:52:16,718 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_01_A.pdf
+2025-04-11 02:52:16,718 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 02:52:16,719 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:52:25,958 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:52:25,963 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:52:25,963 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1834, 總計: 3191
+2025-04-11 02:52:25,964 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 02:52:25,964 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 02:52:25,964 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00002330.json
+2025-04-11 02:52:25,964 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 02:52:25,964 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 02:52:25,964 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 02:52:25,964 - __main__ - INFO - 354 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 02:52:25,995 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 02:52:25,995 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00002330.json
+2025-04-11 02:52:25,995 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 02:52:25,996 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_02_Q.pdf
+2025-04-11 02:52:25,996 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_02_Q.pdf
+2025-04-11 02:52:25,996 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 02:52:25,998 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:54:51,978 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:54:51,987 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:54:51,988 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 20971, 總計: 24108
+2025-04-11 02:54:51,988 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 02:54:51,988 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 02:54:51,988 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_02_A.pdf
+2025-04-11 02:54:51,989 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_02_A.pdf
+2025-04-11 02:54:51,989 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 02:54:51,990 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:55:02,067 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:55:02,073 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:55:02,073 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1820, 總計: 3177
+2025-04-11 02:55:02,073 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 02:55:02,074 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 02:55:02,074 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00002331.json
+2025-04-11 02:55:02,074 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 02:55:02,075 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 02:55:02,075 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 02:55:02,075 - __main__ - INFO - 354 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 02:55:02,107 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 02:55:02,108 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00002331.json
+2025-04-11 02:55:02,108 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 02:55:02,109 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_03_Q.pdf
+2025-04-11 02:55:02,109 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_03_Q.pdf
+2025-04-11 02:55:02,109 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 02:55:02,110 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:57:38,463 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:57:38,483 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:57:38,484 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 22281, 總計: 25418
+2025-04-11 02:57:38,484 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 02:57:38,484 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 02:57:38,484 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_03_A.pdf
+2025-04-11 02:57:38,485 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_03_A.pdf
+2025-04-11 02:57:38,485 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 02:57:38,486 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:57:48,199 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:57:48,204 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:57:48,204 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1824, 總計: 3181
+2025-04-11 02:57:48,204 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 02:57:48,205 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 02:57:48,205 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00002332.json
+2025-04-11 02:57:48,205 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 02:57:48,205 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 02:57:48,205 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 02:57:48,205 - __main__ - INFO - 354 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 02:57:48,236 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 02:57:48,236 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00002332.json
+2025-04-11 02:57:48,236 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 02:57:48,237 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_04_Q.pdf
+2025-04-11 02:57:48,237 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_04_Q.pdf
+2025-04-11 02:57:48,238 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 02:57:48,239 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 02:59:54,980 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 02:59:54,990 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 02:59:54,991 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 19709, 總計: 22846
+2025-04-11 02:59:54,991 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 02:59:54,991 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 02:59:54,992 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_04_A.pdf
+2025-04-11 02:59:54,992 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/101110_102_04_A.pdf
+2025-04-11 02:59:54,992 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 02:59:54,993 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:00:05,335 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:00:05,341 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:00:05,341 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1834, 總計: 3191
+2025-04-11 03:00:05,342 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 03:00:05,342 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 03:00:05,342 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00002333.json
+2025-04-11 03:00:05,342 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 03:00:05,343 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:00:05,343 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:00:05,343 - __main__ - INFO - 354 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:00:05,373 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 03:00:05,373 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00002333.json
+2025-04-11 03:00:05,373 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 03:00:05,375 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_01_Q.pdf
+2025-04-11 03:00:05,375 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_01_Q.pdf
+2025-04-11 03:00:05,375 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:00:05,376 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:02:09,375 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:02:09,387 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:02:09,388 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 2105, 輸出: 18584, 總計: 20689
+2025-04-11 03:02:09,388 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 100 個題目
+2025-04-11 03:02:09,388 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 100 個題目
+2025-04-11 03:02:09,389 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_01_A.pdf
+2025-04-11 03:02:09,389 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_01_A.pdf
+2025-04-11 03:02:09,389 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:02:09,389 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:02:20,531 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:02:20,536 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:02:20,536 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 2283, 總計: 3640
+2025-04-11 03:02:20,537 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 100 個答案項目
+2025-04-11 03:02:20,537 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 100 個答案
+2025-04-11 03:02:20,537 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00004561.json
+2025-04-11 03:02:20,537 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 100，答案數量: 100
+2025-04-11 03:02:20,537 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 100 筆完整資料
+2025-04-11 03:02:20,538 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 100 筆完整資料
+2025-04-11 03:02:20,538 - __main__ - INFO - 354 - INFO - 已將 100 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:02:20,575 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 03:02:20,575 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00004561.json
+2025-04-11 03:02:20,575 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 03:02:20,576 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_Q.pdf
+2025-04-11 03:02:20,576 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_Q.pdf
+2025-04-11 03:02:20,577 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:02:20,577 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:02:20,843 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 400 Bad Request"
+2025-04-11 03:02:20,848 - __main__ - ERROR - 120 - ERROR - 解析題目卷時發生錯誤: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}
+2025-04-11 03:02:20,849 - __main__ - ERROR - 366 - ERROR - 處理檔案 fse00004562.json 時發生錯誤: cannot access local variable 'result' where it is not associated with a value
+2025-04-11 03:02:20,849 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 03:02:20,851 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_01_Q.pdf
+2025-04-11 03:02:20,851 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_01_Q.pdf
+2025-04-11 03:02:20,851 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:02:20,853 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:04:01,982 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:04:02,043 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:04:02,043 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 14612, 總計: 17749
+2025-04-11 03:04:02,044 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 03:04:02,044 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 03:04:02,046 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_01_A.pdf
+2025-04-11 03:04:02,047 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_01_A.pdf
+2025-04-11 03:04:02,047 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:04:02,047 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:04:11,637 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:04:11,645 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:04:11,646 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1834, 總計: 3191
+2025-04-11 03:04:11,646 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 03:04:11,646 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 03:04:11,647 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00004563.json
+2025-04-11 03:04:11,647 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 03:04:11,647 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:04:11,647 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:04:11,647 - __main__ - INFO - 354 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:04:11,674 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 03:04:11,674 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00004563.json
+2025-04-11 03:04:11,675 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 03:04:11,675 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_Q.pdf
+2025-04-11 03:04:11,675 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_Q.pdf
+2025-04-11 03:04:11,676 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:04:11,676 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:04:11,970 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 400 Bad Request"
+2025-04-11 03:04:11,973 - __main__ - ERROR - 120 - ERROR - 解析題目卷時發生錯誤: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}
+2025-04-11 03:04:11,973 - __main__ - ERROR - 366 - ERROR - 處理檔案 fse00004564.json 時發生錯誤: cannot access local variable 'result' where it is not associated with a value
+2025-04-11 03:04:11,973 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 03:04:11,976 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_03_Q.pdf
+2025-04-11 03:04:11,976 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_03_Q.pdf
+2025-04-11 03:04:11,976 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:04:11,978 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:05:53,030 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:05:53,038 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:05:53,039 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 13758, 總計: 16895
+2025-04-11 03:05:53,039 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 03:05:53,039 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 03:05:53,040 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_03_A.pdf
+2025-04-11 03:05:53,040 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_03_A.pdf
+2025-04-11 03:05:53,040 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:05:53,040 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:06:03,281 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:06:03,287 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:06:03,287 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1828, 總計: 3185
+2025-04-11 03:06:03,287 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 03:06:03,287 - __main__ - INFO - 343 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 03:06:03,288 - __main__ - INFO - 346 - INFO - 開始合併題目與答案: 檔案 fse00004565.json
+2025-04-11 03:06:03,288 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 03:06:03,288 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:06:03,288 - __main__ - INFO - 348 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:06:03,288 - __main__ - INFO - 354 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:06:03,313 - __main__ - INFO - 362 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 03:06:03,314 - __main__ - INFO - 364 - INFO - 成功處理檔案: fse00004565.json
+2025-04-11 03:06:03,314 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 03:06:03,315 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_Q.pdf
+2025-04-11 03:06:03,315 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_Q.pdf
+2025-04-11 03:06:03,315 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:06:03,316 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:07:22,361 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:07:22,371 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:07:22,371 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 12121, 總計: 15258
+2025-04-11 03:07:22,372 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 03:07:22,372 - __main__ - INFO - 321 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 03:07:22,373 - __main__ - INFO - 340 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_A.pdf
+2025-04-11 03:07:22,373 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_A.pdf
+2025-04-11 03:07:22,373 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:07:22,374 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:07:22,810 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2025-04-11 03:07:22,811 - __main__ - ERROR - 184 - ERROR - 解析答案卷時發生錯誤: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}
+2025-04-11 03:07:22,811 - __main__ - ERROR - 366 - ERROR - 處理檔案 fse00004566.json 時發生錯誤: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}
+2025-04-11 03:07:22,811 - __main__ - INFO - 295 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006775.json
+2025-04-11 03:07:22,814 - __main__ - INFO - 318 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102110_101_01_Q.pdf
+2025-04-11 03:07:22,814 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102110_101_01_Q.pdf
+2025-04-11 03:07:22,814 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:07:22,815 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:12:51,272 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 03:12:51,274 - __main__ - INFO - 313 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 03:12:51,274 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 03:12:51,274 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 03:12:51,274 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 03:12:51,274 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 03:12:51,274 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 03:12:51,274 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 03:12:51,274 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 03:12:51,274 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 03:12:51,275 - __main__ - WARNING - 281 - WARNING - 試題檔案可能已毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_Q.pdf，檔案頭部不是標準PDF格式
+2025-04-11 03:12:51,275 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 03:12:51,275 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006775.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006776.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006777.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006778.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006779.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006780.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009964.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009965.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009966.json
+2025-04-11 03:12:51,276 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009967.json
+2025-04-11 03:12:51,277 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 03:12:51,277 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009969.json
+2025-04-11 03:12:51,277 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012093.json
+2025-04-11 03:12:51,277 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012094.json
+2025-04-11 03:12:51,277 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012095.json
+2025-04-11 03:12:51,277 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012096.json
+2025-04-11 03:12:51,277 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012097.json
+2025-04-11 03:12:51,277 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012098.json
+2025-04-11 03:13:20,303 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 03:13:20,304 - __main__ - INFO - 313 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 03:13:20,304 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 03:13:20,304 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 03:13:20,304 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 03:13:20,304 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 03:13:20,304 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 03:13:20,304 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 03:13:20,304 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 03:13:20,304 - __main__ - INFO - 318 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 03:13:35,537 - __main__ - WARNING - 281 - WARNING - 試題檔案可能已毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_Q.pdf，檔案頭部不是標準PDF格式
+2025-04-11 03:15:07,539 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 03:15:07,540 - __main__ - INFO - 324 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 03:15:07,540 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 03:15:07,540 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 03:15:07,540 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 03:15:07,540 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 03:15:07,540 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 03:15:07,540 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 03:15:07,540 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 03:15:07,540 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 03:15:07,541 - __main__ - WARNING - 260 - WARNING - 試題檔案可能已毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_Q.pdf，檔案頭部不是標準PDF格式
+2025-04-11 03:15:07,542 - __main__ - INFO - 286 - INFO - 嘗試從網址下載試題檔案: https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102030&c=101&s=0102&q=1
+2025-04-11 03:15:07,767 - __main__ - INFO - 301 - INFO - 成功下載試題檔案至: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_Q.pdf
+2025-04-11 03:15:07,767 - __main__ - INFO - 355 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_Q.pdf
+2025-04-11 03:15:07,768 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_Q.pdf
+2025-04-11 03:15:07,768 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:15:07,769 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:17:52,776 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:17:52,791 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:17:52,791 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 25224, 總計: 28361
+2025-04-11 03:17:52,791 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 100 個題目
+2025-04-11 03:17:52,792 - __main__ - INFO - 358 - INFO - 試題解析完成，共取得 100 個題目
+2025-04-11 03:17:52,793 - __main__ - INFO - 272 - INFO - 答案檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_A.pdf
+2025-04-11 03:17:52,793 - __main__ - INFO - 377 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_A.pdf
+2025-04-11 03:17:52,793 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_101_02_A.pdf
+2025-04-11 03:17:52,794 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:17:52,794 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:18:04,280 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:18:04,286 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:18:04,286 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 2283, 總計: 3640
+2025-04-11 03:18:04,286 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 100 個答案項目
+2025-04-11 03:18:04,286 - __main__ - INFO - 380 - INFO - 答案解析完成，共取得 100 個答案
+2025-04-11 03:18:04,286 - __main__ - INFO - 383 - INFO - 開始合併題目與答案: 檔案 fse00004562.json
+2025-04-11 03:18:04,287 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 100，答案數量: 100
+2025-04-11 03:18:04,287 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 100 筆完整資料
+2025-04-11 03:18:04,287 - __main__ - INFO - 385 - INFO - 題目與答案合併完成，共產生 100 筆完整資料
+2025-04-11 03:18:04,287 - __main__ - INFO - 391 - INFO - 已將 100 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:18:04,314 - __main__ - INFO - 399 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 03:18:04,314 - __main__ - INFO - 401 - INFO - 成功處理檔案: fse00004562.json
+2025-04-11 03:18:04,314 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006775.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006776.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006777.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006778.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006779.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006780.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009964.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009965.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009966.json
+2025-04-11 03:18:04,315 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009967.json
+2025-04-11 03:18:04,316 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 03:18:04,316 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009969.json
+2025-04-11 03:18:04,316 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012093.json
+2025-04-11 03:18:04,316 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012094.json
+2025-04-11 03:18:04,316 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012095.json
+2025-04-11 03:18:04,316 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012096.json
+2025-04-11 03:18:04,316 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012097.json
+2025-04-11 03:18:04,316 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012098.json
+2025-04-11 03:18:16,998 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 03:18:16,999 - __main__ - INFO - 324 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 03:18:16,999 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 03:18:17,000 - __main__ - INFO - 345 - INFO - 檔案 fse00002328.json 已有 100 題，跳過處理
+2025-04-11 03:18:17,000 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 03:18:17,000 - __main__ - INFO - 345 - INFO - 檔案 fse00002329.json 已有 100 題，跳過處理
+2025-04-11 03:18:17,000 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 03:18:17,001 - __main__ - INFO - 345 - INFO - 檔案 fse00002330.json 已有 80 題，跳過處理
+2025-04-11 03:18:17,001 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 03:18:17,001 - __main__ - INFO - 345 - INFO - 檔案 fse00002331.json 已有 80 題，跳過處理
+2025-04-11 03:18:17,001 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 03:18:17,002 - __main__ - INFO - 345 - INFO - 檔案 fse00002332.json 已有 80 題，跳過處理
+2025-04-11 03:18:17,002 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 03:18:17,002 - __main__ - INFO - 345 - INFO - 檔案 fse00002333.json 已有 80 題，跳過處理
+2025-04-11 03:18:17,002 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 03:18:17,003 - __main__ - INFO - 345 - INFO - 檔案 fse00004561.json 已有 100 題，跳過處理
+2025-04-11 03:18:17,003 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 03:18:17,004 - __main__ - INFO - 345 - INFO - 檔案 fse00004562.json 已有 100 題，跳過處理
+2025-04-11 03:18:17,004 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 03:18:17,004 - __main__ - INFO - 345 - INFO - 檔案 fse00004563.json 已有 80 題，跳過處理
+2025-04-11 03:18:17,005 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 03:18:17,006 - __main__ - WARNING - 260 - WARNING - 試題檔案可能已毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_Q.pdf，檔案頭部不是標準PDF格式
+2025-04-11 03:18:17,006 - __main__ - INFO - 286 - INFO - 嘗試從網址下載試題檔案: https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102030&c=102&s=0104&q=1
+2025-04-11 03:18:17,216 - __main__ - INFO - 301 - INFO - 成功下載試題檔案至: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_Q.pdf
+2025-04-11 03:18:17,216 - __main__ - INFO - 367 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_Q.pdf
+2025-04-11 03:18:17,217 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_Q.pdf
+2025-04-11 03:18:17,217 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:18:17,218 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:20:51,492 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:20:51,506 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:20:51,506 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 23160, 總計: 26297
+2025-04-11 03:20:51,507 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 03:20:51,507 - __main__ - INFO - 370 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 03:20:51,510 - __main__ - INFO - 272 - INFO - 答案檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_A.pdf
+2025-04-11 03:20:51,510 - __main__ - INFO - 389 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_A.pdf
+2025-04-11 03:20:51,510 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_02_A.pdf
+2025-04-11 03:20:51,511 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:20:51,511 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:21:01,879 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:21:01,886 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:21:01,886 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1830, 總計: 3187
+2025-04-11 03:21:01,887 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 03:21:01,887 - __main__ - INFO - 392 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 03:21:01,887 - __main__ - INFO - 395 - INFO - 開始合併題目與答案: 檔案 fse00004564.json
+2025-04-11 03:21:01,887 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 03:21:01,888 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:21:01,888 - __main__ - INFO - 397 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:21:01,888 - __main__ - INFO - 403 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:21:01,917 - __main__ - INFO - 411 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 03:21:01,917 - __main__ - INFO - 413 - INFO - 成功處理檔案: fse00004564.json
+2025-04-11 03:21:01,917 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 03:21:01,918 - __main__ - INFO - 345 - INFO - 檔案 fse00004565.json 已有 80 題，跳過處理
+2025-04-11 03:21:01,918 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 03:21:01,919 - __main__ - INFO - 272 - INFO - 試題檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_Q.pdf
+2025-04-11 03:21:01,920 - __main__ - INFO - 367 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_Q.pdf
+2025-04-11 03:21:01,920 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_Q.pdf
+2025-04-11 03:21:01,920 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:21:01,921 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:22:55,462 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:22:55,471 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:22:55,471 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 15226, 總計: 18363
+2025-04-11 03:22:55,472 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 03:22:55,472 - __main__ - INFO - 370 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 03:22:55,474 - __main__ - WARNING - 260 - WARNING - 答案檔案可能已毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_A.pdf，檔案頭部不是標準PDF格式
+2025-04-11 03:22:55,474 - __main__ - INFO - 286 - INFO - 嘗試從網址下載答案檔案: https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102030&c=102&s=0106&q=1
+2025-04-11 03:22:55,615 - __main__ - INFO - 301 - INFO - 成功下載答案檔案至: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_A.pdf
+2025-04-11 03:22:55,616 - __main__ - INFO - 389 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_A.pdf
+2025-04-11 03:22:55,616 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/102030_102_04_A.pdf
+2025-04-11 03:22:55,616 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:22:55,617 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:23:05,864 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:23:05,869 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:23:05,869 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1830, 總計: 3187
+2025-04-11 03:23:05,870 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 03:23:05,870 - __main__ - INFO - 392 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 03:23:05,870 - __main__ - INFO - 395 - INFO - 開始合併題目與答案: 檔案 fse00004566.json
+2025-04-11 03:23:05,871 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 03:23:05,871 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:23:05,871 - __main__ - INFO - 397 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:23:05,871 - __main__ - INFO - 403 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:23:05,897 - __main__ - INFO - 411 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 03:23:05,897 - __main__ - INFO - 413 - INFO - 成功處理檔案: fse00004566.json
+2025-04-11 03:23:05,897 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006775.json
+2025-04-11 03:23:05,898 - __main__ - INFO - 345 - INFO - 檔案 fse00006775.json 已有 100 題，跳過處理
+2025-04-11 03:23:05,898 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006776.json
+2025-04-11 03:23:05,899 - __main__ - INFO - 345 - INFO - 檔案 fse00006776.json 已有 100 題，跳過處理
+2025-04-11 03:23:05,899 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006777.json
+2025-04-11 03:23:05,900 - __main__ - INFO - 345 - INFO - 檔案 fse00006777.json 已有 80 題，跳過處理
+2025-04-11 03:23:05,900 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006778.json
+2025-04-11 03:23:05,901 - __main__ - INFO - 345 - INFO - 檔案 fse00006778.json 已有 80 題，跳過處理
+2025-04-11 03:23:05,901 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006779.json
+2025-04-11 03:23:05,902 - __main__ - INFO - 345 - INFO - 檔案 fse00006779.json 已有 80 題，跳過處理
+2025-04-11 03:23:05,902 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006780.json
+2025-04-11 03:23:05,902 - __main__ - INFO - 345 - INFO - 檔案 fse00006780.json 已有 80 題，跳過處理
+2025-04-11 03:23:05,902 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009964.json
+2025-04-11 03:23:05,903 - __main__ - INFO - 345 - INFO - 檔案 fse00009964.json 已有 100 題，跳過處理
+2025-04-11 03:23:05,903 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009965.json
+2025-04-11 03:23:05,904 - __main__ - INFO - 345 - INFO - 檔案 fse00009965.json 已有 100 題，跳過處理
+2025-04-11 03:23:05,904 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009966.json
+2025-04-11 03:23:05,905 - __main__ - INFO - 345 - INFO - 檔案 fse00009966.json 已有 80 題，跳過處理
+2025-04-11 03:23:05,905 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009967.json
+2025-04-11 03:23:05,905 - __main__ - INFO - 345 - INFO - 檔案 fse00009967.json 已有 80 題，跳過處理
+2025-04-11 03:23:05,906 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 03:23:05,906 - __main__ - INFO - 272 - INFO - 試題檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 03:23:05,907 - __main__ - INFO - 367 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 03:23:05,907 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 03:23:05,907 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:23:05,908 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:25:35,812 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:25:35,822 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:25:35,822 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 22327, 總計: 25464
+2025-04-11 03:25:35,823 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 03:25:35,823 - __main__ - INFO - 370 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 03:25:35,826 - __main__ - INFO - 272 - INFO - 答案檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 03:25:35,826 - __main__ - INFO - 389 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 03:25:35,826 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 03:25:35,826 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:25:35,827 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:25:45,668 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:25:45,676 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:25:45,676 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1788, 總計: 3145
+2025-04-11 03:25:45,677 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 78 個答案項目
+2025-04-11 03:25:45,677 - __main__ - INFO - 392 - INFO - 答案解析完成，共取得 78 個答案
+2025-04-11 03:25:45,677 - __main__ - INFO - 395 - INFO - 開始合併題目與答案: 檔案 fse00009968.json
+2025-04-11 03:25:45,677 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 78
+2025-04-11 03:25:45,678 - __main__ - ERROR - 212 - ERROR - 題目數量(80)與答案數量(78)不一致，可能導致配對錯誤
+2025-04-11 03:25:45,678 - __main__ - INFO - 397 - INFO - 題目與答案合併完成，共產生 0 筆完整資料
+2025-04-11 03:25:45,678 - __main__ - INFO - 403 - INFO - 已將 0 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:25:45,681 - __main__ - INFO - 411 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 03:25:45,681 - __main__ - INFO - 413 - INFO - 成功處理檔案: fse00009968.json
+2025-04-11 03:25:45,681 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009969.json
+2025-04-11 03:25:45,683 - __main__ - INFO - 345 - INFO - 檔案 fse00009969.json 已有 80 題，跳過處理
+2025-04-11 03:25:45,683 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012093.json
+2025-04-11 03:25:45,684 - __main__ - INFO - 345 - INFO - 檔案 fse00012093.json 已有 100 題，跳過處理
+2025-04-11 03:25:45,684 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012094.json
+2025-04-11 03:25:45,685 - __main__ - INFO - 345 - INFO - 檔案 fse00012094.json 已有 100 題，跳過處理
+2025-04-11 03:25:45,685 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012095.json
+2025-04-11 03:25:45,686 - __main__ - INFO - 345 - INFO - 檔案 fse00012095.json 已有 80 題，跳過處理
+2025-04-11 03:25:45,686 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012096.json
+2025-04-11 03:25:45,687 - __main__ - INFO - 345 - INFO - 檔案 fse00012096.json 已有 80 題，跳過處理
+2025-04-11 03:25:45,687 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012097.json
+2025-04-11 03:25:45,687 - __main__ - INFO - 345 - INFO - 檔案 fse00012097.json 已有 80 題，跳過處理
+2025-04-11 03:25:45,688 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012098.json
+2025-04-11 03:25:45,689 - __main__ - INFO - 272 - INFO - 試題檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103100_102_04_Q.pdf
+2025-04-11 03:25:45,689 - __main__ - INFO - 367 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103100_102_04_Q.pdf
+2025-04-11 03:25:45,689 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103100_102_04_Q.pdf
+2025-04-11 03:25:45,689 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:25:45,690 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:28:01,130 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:28:01,144 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:28:01,146 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 20548, 總計: 23685
+2025-04-11 03:28:01,147 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 03:28:01,147 - __main__ - INFO - 370 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 03:28:01,150 - __main__ - INFO - 272 - INFO - 答案檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103100_102_04_A.pdf
+2025-04-11 03:28:01,150 - __main__ - INFO - 389 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103100_102_04_A.pdf
+2025-04-11 03:28:01,151 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103100_102_04_A.pdf
+2025-04-11 03:28:01,151 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:28:01,152 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:28:11,020 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:28:11,029 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:28:11,030 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1824, 總計: 3181
+2025-04-11 03:28:11,030 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 03:28:11,030 - __main__ - INFO - 392 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 03:28:11,030 - __main__ - INFO - 395 - INFO - 開始合併題目與答案: 檔案 fse00012098.json
+2025-04-11 03:28:11,030 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 03:28:11,030 - __main__ - INFO - 227 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:28:11,030 - __main__ - INFO - 397 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 03:28:11,031 - __main__ - INFO - 403 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:28:11,050 - __main__ - INFO - 411 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012098.json
+2025-04-11 03:28:11,050 - __main__ - INFO - 413 - INFO - 成功處理檔案: fse00012098.json
+2025-04-11 03:31:59,522 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 03:31:59,523 - __main__ - INFO - 324 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 03:31:59,523 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 03:31:59,524 - __main__ - INFO - 345 - INFO - 檔案 fse00002328.json 已有 100 題，跳過處理
+2025-04-11 03:31:59,524 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 03:31:59,525 - __main__ - INFO - 345 - INFO - 檔案 fse00002329.json 已有 100 題，跳過處理
+2025-04-11 03:31:59,525 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 03:31:59,525 - __main__ - INFO - 345 - INFO - 檔案 fse00002330.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,526 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 03:31:59,526 - __main__ - INFO - 345 - INFO - 檔案 fse00002331.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,526 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 03:31:59,527 - __main__ - INFO - 345 - INFO - 檔案 fse00002332.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,527 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 03:31:59,527 - __main__ - INFO - 345 - INFO - 檔案 fse00002333.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,527 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 03:31:59,528 - __main__ - INFO - 345 - INFO - 檔案 fse00004561.json 已有 100 題，跳過處理
+2025-04-11 03:31:59,528 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 03:31:59,529 - __main__ - INFO - 345 - INFO - 檔案 fse00004562.json 已有 100 題，跳過處理
+2025-04-11 03:31:59,529 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 03:31:59,529 - __main__ - INFO - 345 - INFO - 檔案 fse00004563.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,529 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 03:31:59,530 - __main__ - INFO - 345 - INFO - 檔案 fse00004564.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,530 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 03:31:59,531 - __main__ - INFO - 345 - INFO - 檔案 fse00004565.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,531 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 03:31:59,531 - __main__ - INFO - 345 - INFO - 檔案 fse00004566.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,531 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006775.json
+2025-04-11 03:31:59,532 - __main__ - INFO - 345 - INFO - 檔案 fse00006775.json 已有 100 題，跳過處理
+2025-04-11 03:31:59,532 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006776.json
+2025-04-11 03:31:59,532 - __main__ - INFO - 345 - INFO - 檔案 fse00006776.json 已有 100 題，跳過處理
+2025-04-11 03:31:59,533 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006777.json
+2025-04-11 03:31:59,533 - __main__ - INFO - 345 - INFO - 檔案 fse00006777.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,533 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006778.json
+2025-04-11 03:31:59,534 - __main__ - INFO - 345 - INFO - 檔案 fse00006778.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,534 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006779.json
+2025-04-11 03:31:59,534 - __main__ - INFO - 345 - INFO - 檔案 fse00006779.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,534 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006780.json
+2025-04-11 03:31:59,535 - __main__ - INFO - 345 - INFO - 檔案 fse00006780.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,535 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009964.json
+2025-04-11 03:31:59,535 - __main__ - INFO - 345 - INFO - 檔案 fse00009964.json 已有 100 題，跳過處理
+2025-04-11 03:31:59,535 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009965.json
+2025-04-11 03:31:59,536 - __main__ - INFO - 345 - INFO - 檔案 fse00009965.json 已有 100 題，跳過處理
+2025-04-11 03:31:59,536 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009966.json
+2025-04-11 03:31:59,536 - __main__ - INFO - 345 - INFO - 檔案 fse00009966.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,537 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009967.json
+2025-04-11 03:31:59,537 - __main__ - INFO - 345 - INFO - 檔案 fse00009967.json 已有 80 題，跳過處理
+2025-04-11 03:31:59,537 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 03:31:59,538 - __main__ - INFO - 272 - INFO - 試題檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 03:31:59,538 - __main__ - INFO - 367 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 03:31:59,538 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 03:31:59,538 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-preview-03-25 解析PDF內容
+2025-04-11 03:31:59,539 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:34:32,746 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:34:32,759 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:34:32,760 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 22806, 總計: 25943
+2025-04-11 03:34:32,760 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 03:34:32,761 - __main__ - INFO - 370 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 03:34:32,762 - __main__ - INFO - 272 - INFO - 答案檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 03:34:32,762 - __main__ - INFO - 389 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 03:34:32,762 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 03:34:32,762 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 03:34:32,763 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 03:34:42,318 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 03:34:42,325 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 03:34:42,326 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1788, 總計: 3145
+2025-04-11 03:34:42,326 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 78 個答案項目
+2025-04-11 03:34:42,326 - __main__ - INFO - 392 - INFO - 答案解析完成，共取得 78 個答案
+2025-04-11 03:34:42,326 - __main__ - INFO - 395 - INFO - 開始合併題目與答案: 檔案 fse00009968.json
+2025-04-11 03:34:42,326 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 78
+2025-04-11 03:34:42,327 - __main__ - ERROR - 212 - ERROR - 題目數量(80)與答案數量(78)不一致，可能導致配對錯誤
+2025-04-11 03:34:42,327 - __main__ - INFO - 397 - INFO - 題目與答案合併完成，共產生 0 筆完整資料
+2025-04-11 03:34:42,327 - __main__ - INFO - 403 - INFO - 已將 0 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 03:34:42,329 - __main__ - INFO - 411 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 03:34:42,329 - __main__ - INFO - 413 - INFO - 成功處理檔案: fse00009968.json
+2025-04-11 03:34:42,329 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009969.json
+2025-04-11 03:34:42,330 - __main__ - INFO - 345 - INFO - 檔案 fse00009969.json 已有 80 題，跳過處理
+2025-04-11 03:34:42,330 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012093.json
+2025-04-11 03:34:42,332 - __main__ - INFO - 345 - INFO - 檔案 fse00012093.json 已有 100 題，跳過處理
+2025-04-11 03:34:42,332 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012094.json
+2025-04-11 03:34:42,333 - __main__ - INFO - 345 - INFO - 檔案 fse00012094.json 已有 100 題，跳過處理
+2025-04-11 03:34:42,333 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012095.json
+2025-04-11 03:34:42,334 - __main__ - INFO - 345 - INFO - 檔案 fse00012095.json 已有 80 題，跳過處理
+2025-04-11 03:34:42,334 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012096.json
+2025-04-11 03:34:42,335 - __main__ - INFO - 345 - INFO - 檔案 fse00012096.json 已有 80 題，跳過處理
+2025-04-11 03:34:42,336 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012097.json
+2025-04-11 03:34:42,337 - __main__ - INFO - 345 - INFO - 檔案 fse00012097.json 已有 80 題，跳過處理
+2025-04-11 03:34:42,337 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012098.json
+2025-04-11 03:34:42,338 - __main__ - INFO - 345 - INFO - 檔案 fse00012098.json 已有 80 題，跳過處理
+2025-04-11 10:54:08,498 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 10:54:08,498 - __main__ - INFO - 324 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 10:54:08,499 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006775.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006776.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006777.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006778.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006779.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006780.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009964.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009965.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009966.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009967.json
+2025-04-11 10:54:08,500 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 10:54:08,503 - __main__ - INFO - 272 - INFO - 試題檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 10:54:08,503 - __main__ - INFO - 367 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 10:54:08,503 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 10:54:08,503 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-exp-03-25 解析PDF內容
+2025-04-11 10:54:08,504 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 10:56:28,378 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 10:56:28,384 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 10:56:28,385 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 20325, 總計: 23462
+2025-04-11 10:56:28,385 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 10:56:28,385 - __main__ - INFO - 370 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 10:56:28,386 - __main__ - INFO - 272 - INFO - 答案檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 10:56:28,387 - __main__ - INFO - 389 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 10:56:28,387 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 10:56:28,387 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 10:56:28,388 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 10:56:37,864 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 10:56:37,870 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 10:56:37,870 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1788, 總計: 3145
+2025-04-11 10:56:37,871 - __main__ - INFO - 181 - INFO - 成功解析答案卷，共獲取 78 個答案項目
+2025-04-11 10:56:37,871 - __main__ - INFO - 392 - INFO - 答案解析完成，共取得 78 個答案
+2025-04-11 10:56:37,871 - __main__ - INFO - 395 - INFO - 開始合併題目與答案: 檔案 fse00009968.json
+2025-04-11 10:56:37,871 - __main__ - INFO - 207 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 78
+2025-04-11 10:56:37,872 - __main__ - ERROR - 212 - ERROR - 題目數量(80)與答案數量(78)不一致，可能導致配對錯誤
+2025-04-11 10:56:37,872 - __main__ - INFO - 397 - INFO - 題目與答案合併完成，共產生 0 筆完整資料
+2025-04-11 10:56:37,872 - __main__ - INFO - 403 - INFO - 已將 0 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 10:56:37,875 - __main__ - INFO - 411 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 10:56:37,875 - __main__ - INFO - 413 - INFO - 成功處理檔案: fse00009968.json
+2025-04-11 10:56:37,875 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009969.json
+2025-04-11 10:56:37,876 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012093.json
+2025-04-11 10:56:37,876 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012094.json
+2025-04-11 10:56:37,876 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012095.json
+2025-04-11 10:56:37,876 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012096.json
+2025-04-11 10:56:37,876 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012097.json
+2025-04-11 10:56:37,877 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012098.json
+2025-04-11 11:01:26,370 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 11:01:26,371 - __main__ - INFO - 324 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 11:01:26,371 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 11:01:26,371 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 11:01:26,371 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 11:01:26,371 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 11:01:26,371 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006775.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006776.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006777.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006778.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006779.json
+2025-04-11 11:01:26,372 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006780.json
+2025-04-11 11:01:26,373 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009964.json
+2025-04-11 11:01:26,373 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009965.json
+2025-04-11 11:01:26,373 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009966.json
+2025-04-11 11:01:26,373 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009967.json
+2025-04-11 11:01:26,373 - __main__ - INFO - 329 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 11:01:26,374 - __main__ - INFO - 272 - INFO - 試題檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 11:01:26,374 - __main__ - INFO - 367 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 11:01:26,374 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 11:01:26,374 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-exp-03-25 解析PDF內容
+2025-04-11 11:01:26,375 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 11:03:43,962 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 11:03:43,973 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 11:03:43,974 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 20859, 總計: 23996
+2025-04-11 11:03:43,974 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 11:03:43,975 - __main__ - INFO - 370 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 11:03:43,976 - __main__ - INFO - 272 - INFO - 答案檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 11:03:43,976 - __main__ - INFO - 389 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 11:03:43,976 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 11:03:43,977 - __main__ - INFO - 155 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 11:03:43,978 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 11:03:53,107 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 11:03:53,114 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 11:03:53,114 - __main__ - INFO - 175 - INFO - Token 使用量 - 輸入: 1357, 輸出: 1788, 總計: 3145
+2025-04-11 11:09:11,061 - __main__ - INFO - 57 - INFO - 初始化完成
+2025-04-11 11:09:11,061 - __main__ - INFO - 328 - INFO - 在 /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json 中找到 30 個 JSON 檔案
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002328.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002329.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002330.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002331.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002332.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00002333.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004561.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004562.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004563.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004564.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004565.json
+2025-04-11 11:09:11,062 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00004566.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006775.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006776.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006777.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006778.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006779.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00006780.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009964.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009965.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009966.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009967.json
+2025-04-11 11:09:11,063 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 11:09:11,064 - __main__ - INFO - 276 - INFO - 試題檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 11:09:11,064 - __main__ - INFO - 371 - INFO - 開始解析試題檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 11:09:11,065 - __main__ - INFO - 72 - INFO - 開始解析題目卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_Q.pdf
+2025-04-11 11:09:11,065 - __main__ - INFO - 90 - INFO - 使用模型 gemini-2.5-pro-exp-03-25 解析PDF內容
+2025-04-11 11:09:11,066 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 11:11:21,575 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-11 11:11:21,588 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 11:11:21,588 - __main__ - INFO - 111 - INFO - Token 使用量 - 輸入: 3137, 輸出: 18885, 總計: 22022
+2025-04-11 11:11:21,589 - __main__ - INFO - 117 - INFO - 成功解析題目卷，共獲取 80 個題目
+2025-04-11 11:11:21,589 - __main__ - INFO - 374 - INFO - 試題解析完成，共取得 80 個題目
+2025-04-11 11:11:21,590 - __main__ - INFO - 276 - INFO - 答案檔案檢查完成，未發現明顯毀損: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 11:11:21,590 - __main__ - INFO - 393 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 11:11:21,591 - __main__ - INFO - 136 - INFO - 開始解析答案卷: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_bank/103030_102_03_A.pdf
+2025-04-11 11:11:21,591 - __main__ - INFO - 159 - INFO - 使用模型 gemini-2.0-flash 解析答案卷PDF內容
+2025-04-11 11:11:21,592 - google_genai.models - INFO - 4934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-11 11:11:30,897 - httpx - INFO - 1025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-11 11:11:30,902 - google_genai.models - INFO - 4945 - INFO - AFC remote call 1 is done.
+2025-04-11 11:11:30,902 - __main__ - INFO - 179 - INFO - Token 使用量 - 輸入: 1429, 輸出: 1830, 總計: 3259
+2025-04-11 11:11:30,902 - __main__ - INFO - 185 - INFO - 成功解析答案卷，共獲取 80 個答案項目
+2025-04-11 11:11:30,902 - __main__ - INFO - 396 - INFO - 答案解析完成，共取得 80 個答案
+2025-04-11 11:11:30,902 - __main__ - INFO - 399 - INFO - 開始合併題目與答案: 檔案 fse00009968.json
+2025-04-11 11:11:30,902 - __main__ - INFO - 211 - INFO - 開始合併題目與答案，題目數量: 80，答案數量: 80
+2025-04-11 11:11:30,903 - __main__ - INFO - 231 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 11:11:30,903 - __main__ - INFO - 401 - INFO - 題目與答案合併完成，共產生 80 筆完整資料
+2025-04-11 11:11:30,903 - __main__ - INFO - 407 - INFO - 已將 80 筆題目與答案資料合併至 JSON 檔案的題庫欄位
+2025-04-11 11:11:30,933 - __main__ - INFO - 415 - INFO - 已將更新後的資料寫回檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009968.json
+2025-04-11 11:11:30,933 - __main__ - INFO - 417 - INFO - 成功處理檔案: fse00009968.json
+2025-04-11 11:11:30,933 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00009969.json
+2025-04-11 11:11:30,934 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012093.json
+2025-04-11 11:11:30,934 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012094.json
+2025-04-11 11:11:30,934 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012095.json
+2025-04-11 11:11:30,934 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012096.json
+2025-04-11 11:11:30,934 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012097.json
+2025-04-11 11:11:30,934 - __main__ - INFO - 333 - INFO - 正在處理檔案: /Users/ken/Documents/workspace/workspace_freeseed/exams_tw/question_json/fse00012098.json

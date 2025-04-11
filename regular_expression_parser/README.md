@@ -1,0 +1,1 @@
+這folder裡的.py都是在未使用LLM前，直接使用regular expression進行處理的程式，用不到了，但先擺著。
